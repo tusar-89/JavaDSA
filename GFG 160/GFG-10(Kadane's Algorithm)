@@ -1,0 +1,24 @@
+
+<Problem><=>
+
+  https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/kadanes-algorithm-1587115620
+
+<Ans><=>
+    
+class Solution {
+    int maxSubarraySum(int[] arr) {
+        int sum =0;
+        int ans =Integer.MIN_VALUE;
+        
+        for (int ele:arr)
+        {
+            sum = Math.max(sum+ele,ele);
+            ans =Math.max(ans,sum);
+        }
+        return ans;
+        
+    }
+    
+}
+
+  
