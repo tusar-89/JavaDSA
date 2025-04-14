@@ -1,0 +1,35 @@
+
+<Problem><=>
+
+https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/max-circular-subarray-sum-1587115620
+
+<Ans><=>
+
+class Solution {
+
+    // a: input array
+    // n: size of array
+    // Function to find maximum circular subarray sum.
+    public int circularSubarraySum(int arr[]) {
+
+        // Your code here
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        int total = 0;
+        int maxSum = 0;
+        int minSum = 0;
+
+        for (int i : arr) {
+            total += i;
+            maxSum += i;
+            minSum += i;
+            max = Math.max(max, maxSum);
+            min = Math.min(min, minSum);
+            if (maxSum < 0) maxSum = 0;
+            if (minSum > 0) minSum = 0;
+        }
+
+        return Math.max(max, (total-min));
+    }
+}
+
