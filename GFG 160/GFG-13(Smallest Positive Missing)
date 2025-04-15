@@ -1,0 +1,34 @@
+
+<Problem><=>
+
+https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/smallest-positive-missing-number-1587115621
+
+<Ans><=>
+
+class Solution {
+    // Function to find the smallest positive number missing from the array.
+    public int missingNumber(int[] arr) {
+        // Your code here
+         int n = arr.length;
+
+        for (int i = n-1;i >= 0;i--){
+            int ele = arr[i];
+            if (ele > 0 && ele < n && arr[i] != arr[ele]){
+                int temp = arr[i];
+                arr[i] = arr[ele];
+                arr[ele] = temp;
+                i++;
+            }
+        }
+
+        for (int i = 1;i < n;i++){
+            if (arr[i] != i){
+                return i;
+            }
+        }
+
+        if (arr[0] != n)return n;
+
+        return n+1;
+    }
+}
