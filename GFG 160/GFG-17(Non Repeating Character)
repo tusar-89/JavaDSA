@@ -1,0 +1,23 @@
+
+<Problem><=>
+
+https://www.geeksforgeeks.org/batch/gfg-160-problems/track/string-gfg-160/problem/non-repeating-character-1587115620
+
+<Ans><=>
+
+class Solution {
+    static char nonRepeatingChar(String s) {
+        // code here
+          int n = s.length();
+        HashMap<Character, Integer> map = new HashMap<>();
+
+        for (int i = 0;i < n;i++){
+            map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
+        }
+        for (int i = 0;i < n;i++){
+            if (map.get(s.charAt(i)) == 1) return s.charAt(i);
+        }
+
+        return '$';
+    }
+}
