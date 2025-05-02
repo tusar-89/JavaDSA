@@ -1,0 +1,29 @@
+Problem--> 
+
+geeksforgeeks.org/problems/count-odd-even/1?page=1&category=Arrays&difficulty=Basic&status=solved,unsolved&sortBy=submission
+
+Given an array arr[] of positive integers. The task is to return the count
+of the number of odd and even elements in the array.
+
+Ans-->
+
+class Solution {
+    public int[] countOddEven(int[] arr) {
+        int E=0;
+        int O=0;
+        for(int ele :arr)
+        {
+            if(ele%2==0)
+            {
+                 E++;
+            }
+            else
+            {
+                 O++;
+            }
+        }
+        return new int [] {O,E};
+        
+        
+    }
+}
