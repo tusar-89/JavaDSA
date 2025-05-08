@@ -1,0 +1,46 @@
+Problem -->
+Given an array arr of positive integers. Reverse every sub-array group of size k.
+
+Note: If at any instance, k is greater or equal to the array size, then reverse the entire array.
+You shouldn't return any array, modify the given array in place.
+
+https://www.geeksforgeeks.org/problems/reverse-array-in-groups0255/1?page=1&category=Arrays&difficulty=Basic&status=solved&sortBy=submissions
+Ans-->
+class Solution {
+
+    // Function to reverse every sub-array group of size k.
+    void reverseInGroups(ArrayList<Long> arr, int k)
+    {
+        int n = arr.size(); 
+        if(k>=n)
+        {
+            reverseSubArray(arr,0,n-1);
+            return;
+        }
+
+        for (int i = 0; i < n; i += k)
+        {
+            int left = i;
+            int right = Math.min(i + k - 1, n - 1);
+            reverseSubArray(arr,left,right);
+        }
+    }
+
+            // Reverse the sub-array
+            public void reverseSubArray(ArrayList<Long>arr,int left,int right)
+            {
+                
+            
+            while (left < right) 
+            {
+                Long  temp = arr.get(left);
+               arr.set(left,arr.get(right));
+                arr.set(right,temp);
+                left++;
+                right--;
+              
+          
+            }
+        }
+}
+   
