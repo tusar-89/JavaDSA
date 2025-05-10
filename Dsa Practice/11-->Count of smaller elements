@@ -1,0 +1,22 @@
+Problem-->
+Given an unsorted array arr. Find the count of elements less than or equal to the given element x.
+
+https://www.geeksforgeeks.org/problems/count-of-smaller-elements5947/1?page=1&category=Arrays&difficulty=Basic&status=solved,unsolved&sortBy=submissions
+
+Ans-->
+class Solution {
+    public int countOfElements(int x, List<Integer> arr) {
+        // Code here
+        int c =0;
+        int n=arr.size();
+        for(int i=0;i<n;i++)
+        {
+            if(arr.get(i)<=x)
+            {
+             c++;
+            }
+            
+        }
+          return c;
+    }
+}
