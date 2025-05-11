@@ -2,7 +2,7 @@ problem-->
   Given an array arr[]. The task is to rotate the array by d elements where d ≤ arr.size.
 
     https://www.geeksforgeeks.org/problems/reversal-algorithm5340/1?page=1&category=Arrays&difficulty=Basic&status=solved,unsolved&sortBy=submissions
-Ans-->
+Ans--> 
 
   class solution
   {
