@@ -1,7 +1,7 @@
 /*
 Problem-->
 
-  Given a binary string s. You have to count the number of substrings that start and end with 1.
+   Given a binary string s. You have to count the number of substrings that start and end with 1.
 
   https://www.geeksforgeeks.org/problems/binary-string-1587115620/1?page=3&category=Strings&status=unsolved&sortBy=submissions
 
