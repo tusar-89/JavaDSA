@@ -7,7 +7,7 @@ Note: If multiple occurrences are there, please return the smallest index.
 https://www.geeksforgeeks.org/problems/binary-search-1587115620/1?page=1&category=Arrays&difficulty=Easy&status=solved,unsolved&sortBy=submissions
     
 Ans-->
-
+   
   class Solution {
     public int binarysearch(int[] arr, int k) {
         // Code Here
