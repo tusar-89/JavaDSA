@@ -6,7 +6,7 @@ https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/proble
 Ans -->
 
 
-class Solution {
+class Solution { 
     int maxSubarraySum(int[] arr) {
         int sum =0;
         int ans =Integer.MIN_VALUE;
