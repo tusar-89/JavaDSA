@@ -6,7 +6,7 @@ Given an array arr[]. The task is to find the number of odd and even elements in
 https://www.geeksforgeeks.org/problems/count-odd-even-java/1?page=5&category=Arrays&difficulty=Basic,Easy&status=unsolved&sortBy=submissions
 
 Ans-->
-
+ 
   */
 
 class Solution {
