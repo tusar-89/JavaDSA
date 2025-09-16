@@ -1,5 +1,5 @@
 /*
-Problem-->
+Problem--> 
 
 Given two strings S1 and S2 as input. Your task is to concatenate two strings and then reverse the string. Finally print the reversed string.
 
