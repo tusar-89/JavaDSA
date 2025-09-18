@@ -6,7 +6,7 @@ A string is considered a palindrome if it reads the same forwards and backwards.
 
 https://www.geeksforgeeks.org/problems/palindrome-string0817/1?page=1&category=Strings&sortBy=submissions
 
-Ans-->
+Ans--> 
 
 */
 
