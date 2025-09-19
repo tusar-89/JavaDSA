@@ -6,7 +6,7 @@ Problem-->
 
   https://www.geeksforgeeks.org/problems/roof-top-1587115621/1?page=2&category=Arrays,Strings&difficulty=Basic,Easy&status=unsolved&sortBy=submissions
 
-Ans-->
+Ans--> 
 
   */
 
