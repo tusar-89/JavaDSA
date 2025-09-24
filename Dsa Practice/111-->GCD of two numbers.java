@@ -1,4 +1,4 @@
-/*
+/* 
 Problem-->
   
 Given two positive integers a and b, find GCD of a and b.
