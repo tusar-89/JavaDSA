@@ -1,5 +1,5 @@
 /*
-(-- Dutch National Flag Algorithm--)or DNF Algorithm
+In this problem (-- Dutch National Flag Algorithm--)or DNF Algorithm is used .
 Problem-->
 
   Given an array arr[] containing only 0s, 1s, and 2s. Sort the array in ascending order.
