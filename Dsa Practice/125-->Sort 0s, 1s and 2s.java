@@ -1,4 +1,4 @@
-/*
+ /*
 In this problem (-- Dutch National Flag Algorithm--)or DNF Algorithm is used .
 Problem-->
 
