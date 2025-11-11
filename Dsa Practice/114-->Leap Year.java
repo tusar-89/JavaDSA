@@ -7,7 +7,7 @@ https://www.geeksforgeeks.org/problems/leap-year0943/1?page=2&difficulty=Basic&s
 
 Ans-->
 
-  */
+  */   
 
 class Solution {
     static boolean isLeap(int N) {
