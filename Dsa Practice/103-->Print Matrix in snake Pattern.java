@@ -1,4 +1,4 @@
-/*
+/* 
 Problem-->
 
   Given a matrix mat[][] of size n x n. Print the elements of the matrix in the snake like pattern depicted below
