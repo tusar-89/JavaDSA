@@ -1,4 +1,4 @@
-/* 
+/*
 Problem-->
 
 Given a n*n matrix mat[][] ,check whether the matrix is a magic square or not.
