@@ -1,4 +1,4 @@
-/*
+/* 
 Problem-->
 
 You are given an integer n. You have  to print all numbers from 1 to n.
