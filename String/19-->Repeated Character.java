@@ -1,4 +1,4 @@
-/* 
+/*  
 Problem-->
 
 Given a string consisting of lowercase english alphabets. Find the repeated character present first in the string.
