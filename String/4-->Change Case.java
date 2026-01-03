@@ -10,7 +10,7 @@ Given a string s, you need to perform the following operation.
 
   Ans-->
 
-  */
+  */ 
 
 class Solution {
     public static void changeCase(String s) {
