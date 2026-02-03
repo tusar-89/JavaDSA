@@ -13,7 +13,7 @@ Ans-->
 class Solution {
     // Function to find maximum number of consecutive steps
     // to gain an increase in altitude with each step.
-    public int maxStep(int arr[]) {
+    public int maxStep(int arr[]) { 
         // Your code here
          int max = 0;
         int current = 0;
