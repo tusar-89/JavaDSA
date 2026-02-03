@@ -1,4 +1,4 @@
-/*
+/* 
 Problem-->
   
 Given a non-empty sequence of characters s, return true if sequence is Binary, else return false.
