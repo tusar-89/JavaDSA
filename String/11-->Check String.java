@@ -1,6 +1,6 @@
 /*
 Problem-->
-  
+   
 Given a string, check if all its characters are the same or not.
 
  https://www.geeksforgeeks.org/problems/check-string1818/1?page=1&category=Strings&difficulty=Basic&status=unsolved&sortBy=submissions
