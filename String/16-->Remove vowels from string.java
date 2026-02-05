@@ -1,4 +1,4 @@
-/*
+/*  
 Problem-->
   
 Given a string s. Your task is to remove the vowels from the string.
