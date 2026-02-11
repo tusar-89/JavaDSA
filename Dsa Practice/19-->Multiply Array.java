@@ -1,4 +1,4 @@
-Problem-->
+Problem--> 
 Calculate the product of all the elements in an array.
 
   https://www.geeksforgeeks.org/problems/multiply-array-1658312632/1?page=4&category=Arrays&difficulty=Basic&status=solved,unsolved&sortBy=submissions
