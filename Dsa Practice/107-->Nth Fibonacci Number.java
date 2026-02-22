@@ -18,7 +18,7 @@ F(n) = F(n - 1) + F(n - 2) for n > 1
 
   */
 
-// User function Template for Java
+Solution-->(Brute Force)
 
 class Solution {
     public int nthFibonacci(int n) {
@@ -41,5 +41,18 @@ class Solution {
           }
        
         return c;
+    }
+}
+
+Solution-->(Optimal)
+
+  class Solution {
+    static int nthFibonacci(int n) {
+        // code here
+        if(n<=1)
+        {
+        return n;
+        }
+        return nthFibonacci(n-1)+nthFibonacci(n-2);
     }
 }
