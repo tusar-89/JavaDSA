@@ -1,4 +1,4 @@
-Problem--> 
+Problem-->
 
   Given an array arr[], swap the kth element from the beginning with the kth element from the end.
 
