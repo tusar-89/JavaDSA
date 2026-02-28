@@ -1,4 +1,4 @@
-/*
+/* 
 Problem-->
 
   Given the first 2 terms a1 and a2 of an Arithmetic Series. Find the nth term of the series. 
