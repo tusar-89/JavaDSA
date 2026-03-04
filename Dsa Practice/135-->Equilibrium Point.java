@@ -1,4 +1,4 @@
-/*
+/* 
 Problem-->
   
 Given an array of integers arr[], the task is to find the first equilibrium point in the array.
