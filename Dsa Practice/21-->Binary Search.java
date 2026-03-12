@@ -1,4 +1,4 @@
-Problem--> 
+Problem-->
   
   Given a sorted array arr and an integer k, find the position(0-based indexing) at which k is present in the array using binary search.
 
