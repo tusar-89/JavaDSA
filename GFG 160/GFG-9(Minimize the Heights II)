@@ -3,7 +3,7 @@
 
 https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/minimize-the-heights3351
 
-<Ans><=>
+<Ans><=> 
 
 class Solution {
     int getMinDiff(int[] arr, int k) {
