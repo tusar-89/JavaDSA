@@ -31,3 +31,30 @@ class Solution {
         return true;  
     }
 }
+
+Optimized-->(Solution)
+
+  class Solution {
+
+    public static boolean isPanagram(String str) {
+        // Your code here
+        boolean [] seen=new boolean[26];
+        int count=0;
+        for(int i=0;i<str.length();i++)
+        {
+            char ch=Character.toLowerCase(str.charAt(i));
+            if(ch>='a'&&ch<='z'){
+            if(!seen[ch-'a'])
+            {
+               seen [ch-'a']=true;
+                count++;
+            }
+        }
+    }
+        if(count==26)
+        {
+            return true;
+        }
+        return false;
+    }
+}
