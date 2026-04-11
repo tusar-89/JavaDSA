@@ -1,4 +1,4 @@
-/* 
+/*
 Problem-->
    
 Given a string, check if all its characters are the same or not.
