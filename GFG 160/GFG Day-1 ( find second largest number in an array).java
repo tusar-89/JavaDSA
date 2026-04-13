@@ -2,7 +2,7 @@
 
 https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/second-largest3735     
 
-<ANS><=> 
+<ANS><=>
  
 class Solution {
     public int getSecondLargest(int[] arr) {
